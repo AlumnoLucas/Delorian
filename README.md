@@ -18,7 +18,7 @@ tener mejores resultados, lo mismo con los troyanos.</p>
 <img src="foto.png">
 <hr>
 <h6>instalacion</h6>
-<p>git clone https://github.com/error404-notfound/Delorian</p>
+<p>git clone https://github.com/TheHorseOnFireARG/Delorian</p>
 <p>cd Delorian</p>
 <p>chmod 777 install.sh</p>
 <p>chmod 777 script.sh</p>
