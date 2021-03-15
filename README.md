@@ -1,58 +1,26 @@
 # Delorian
 <h6>Descripcion</h6>
 <br>
-<p>Deloria 1.0 , genera cargas util de MSF, servidor donde alojar nuestros sitios falsos para vulnerar a los usuarios de la empresa 
-donde estamos trabajando legalmente, cualquier fin de lucrarse,vulnerar la intimidad de personas ajenas a nuestro trabajo como    pentesters o cometer delitos informaticos no nos hacemos reponsables ya que Delorian 1.0 esta creado con el unico fin de tomar conciencia o simplemente para usarlo en sesiones de pentesting dentro del marco legal.
-Delorian genera cargas util de Metasploit-Framework , genera un simple servidor en Python al puerto 8000 en nuestro localhost 
-con un sitio falso para vulnerar a nuestra victima con ingenieria social o un DNS Spoofing, los sitios falsos son acorde a     windows(actualizar firewall) y Android(descarga app de actualizacion) las index o sitios falsos se pueden editar, 
-el banner del script muestra donde estara nuestro troyano,nuestro sitio web y el trafico de lo que va pasando en nuestro simple servidor.
-para dificultarle a los ciberdelincuentes creamos delorian dentro de nuestra red LAN , para que los phishing,sitios falsos no sean 
-usados con fines mal intencionados, ya pronto se vera un video de la herramienta actualizada, ya que anteriormente se grabó un video
-en nuestro canal de Youtube para mostrar un adelanto, la herramienta se quedo guardada y no se terminó, las index son mal 
-creadas con el fin de no vulnerar a nadie o mentir a nadie para tomar el acceso de su android o windows, pero se pueden editar para 
-tener mejores resultados, lo mismo con los troyanos.</p>
+<p>Delorian 1.0, generates MSF payloads, server where to host our fake sites to violate the users of the company where we are legally working, any purpose of profit, violate the privacy of people outside our work as pentesters or commit computer crimes we do not We hold them responsible since Delorian 1.0 is created for the sole purpose of raising awareness or simply to use it in pentesting sessions within the legal framework. Delorian generates Metasploit-Framework payloads, generates a simple Python server at port 8000 on our localhost with a fake site to violate our victim with social engineering or DNS Spoofing, fake sites are according to windows (update firewall) and Android (download update app) the indexes or fake sites can be edited, the script banner shows where our Trojan will be, our website and the traffic of what is happening on our simple server. To make it difficult for cybercriminals we created delorian within our LAN network, so that phishing, fake sites are not used for malicious purposes, and soon you will see a video of the updated tool, since a video was previously recorded on our channel of Youtube to show a preview, the tool was saved and was not finished, the indexes are badly created in order not to violate anyone or lie to anyone to take access to their android or windows, but they can be edited to have better results, same with Trojans.</p>
 <hr>
-<h5>Se recomienda testear primero para no andar desorientado/a, video tutorial en nuestro canal de Youtube.</h5>
+<h5>It is recommended to test first to avoid being disoriented, video tutorial on our YouTube channel.</h5>
 <hr>
 <h6>Muestra:</h6>
-<img src="foto.png">
+<img src="photo.png">
 <hr>
-<h6>instalacion</h6>
+<h6>installation:</h6>
 <p>git clone https://github.com/error404-notfound/Delorian</p>
 <p>cd Delorian</p>
-<p>chmod 777 install.sh</p>
-<p>chmod 777 script.sh</p>
-<p>bash install.sh</p> 
+<p>chmod +x *</p>
+<p>./install.sh</p> 
 <p>./Delorian</p>
 <hr>
-<h6>Informacion:</h6>
-<p>La index de windows se guardara en la ruta: /usr/delorian/windows/sitio</p>
-<p>La index de android se guardara en la ruta: /usr/delorian/android/sitio/</p>
+<h6>information:</h6>
+<p>The windows index will be saved in the path: $PREFIX/usr/delorian/windows/sitio</p>
+<p>The android index will be saved in the path: $PREFIX/usr/delorian/android/sitio/</p>
 <br>
-<p>Las index son 100% modificables, las que trae pre editadas solamente son para muestra, ya si quisieramos algo mas serio tocaria editarlas acorde a la ingenieria social que vayamos hacer en el momento.</p>
+<p>The indexes are 100% modifiable, the ones that are pre-edited are only for samples, and if we wanted something more serious, we would have to edit them according to the social engineering that we are going to do at the moment.</p>
 <hr>
-<p>Troyano Windows /usr/delorian/windows/upfirewall.exe</p>
-<p>Troyano Android /usr/delorian/android/android.apk</p>
+<p>Virus Windows $PREFIX/usr/delorian/windows/upfirewall.exe</p>
+<p>Virus Android $PREFIX/usr/delorian/android/android.apk</p>
 <hr>
-<h6>Visitamos en nuestra redes sociales ayudanos con tu like.</h6>
-<br>
-Visita nuestra canal de youtube:
-https://www.youtube.com/channel/UC9ZtujTcMuBcKsV4-4G9Zxg
-
-Visita nuestra cuenta de Facebook:
-https://www.facebook.com/error4o4.org
-
-También estamos en Twitter:
-https://twitter.com/error4o4org
-
-Canal de Telegram:
-https://t.me/error404notfound4
-
-Grupo de Telegram:
-https://t.me/error404notfounda
-
-Visita nuestra cuenta de GitHub:
-https://github.com/error404-notfound
-
-Cuenta PayPal para sus donativo:
-https://www.paypal.me/error404notjavic
