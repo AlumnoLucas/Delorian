@@ -23,4 +23,6 @@
 <hr>
 <p>Virus Windows $PREFIX/usr/delorian/windows/upfirewall.exe</p>
 <p>Virus Android $PREFIX/usr/delorian/android/android.apk</p>
+<br>
+<div class="alert alert-danger">You must modify the indexes in botton.</div>
 <hr>
